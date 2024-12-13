@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{46C5BEEA-907A-4DBA-9839-00EFA3D073EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{35461D04-A34E-4C9E-BBCC-DF33479C61D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RatingService", "RatingService", "{7E31FE1C-7C5C-4D3F-A70C-697419AB3060}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NotificationService", "NotificationService", "{8C4F22B6-A4F6-4EE3-AC13-64DC9C83B761}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RatingService.Domain", "src\Services\RatingService\RatingService.Domain\RatingService.Domain.csproj", "{DA6E9FF9-2349-4F67-97A5-8E65B681D170}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RatingService.Application", "src\Services\RatingService\RatingService.Application\RatingService.Application.csproj", "{2E3A1804-299C-4678-9B92-EA53B150B6C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RatingService.Infrastructure", "src\Services\RatingService\RatingService.Infrastructure\RatingService.Infrastructure.csproj", "{790EB36F-253E-4F08-AAAC-D04B0A240D86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RatingService.API", "src\Services\RatingService\RatingService.API\RatingService.API.csproj", "{4E0A56BD-2214-437D-AFBE-712E86609C91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.API", "src\Services\NotificationService\NotificationService.API\NotificationService.API.csproj", "{C5321ADE-DE5F-483F-A351-0D5E35A2C635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Application", "src\Services\NotificationService\NotificationService.Application\NotificationService.Application.csproj", "{8A4F68B3-8D59-4D46-8B11-FA1A07B33CD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Domain", "src\Services\NotificationService\NotificationService.Domain\NotificationService.Domain.csproj", "{A2F4A164-49D9-4729-94E0-806ED364857D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Infrastructure", "src\Services\NotificationService\NotificationService.Infrastructure\NotificationService.Infrastructure.csproj", "{312C1AB6-DD90-4472-AD2F-DC9C30ED2C5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35461D04-A34E-4C9E-BBCC-DF33479C61D9} = {46C5BEEA-907A-4DBA-9839-00EFA3D073EA}
+		{7E31FE1C-7C5C-4D3F-A70C-697419AB3060} = {35461D04-A34E-4C9E-BBCC-DF33479C61D9}
+		{8C4F22B6-A4F6-4EE3-AC13-64DC9C83B761} = {35461D04-A34E-4C9E-BBCC-DF33479C61D9}
+		{DA6E9FF9-2349-4F67-97A5-8E65B681D170} = {7E31FE1C-7C5C-4D3F-A70C-697419AB3060}
+		{2E3A1804-299C-4678-9B92-EA53B150B6C1} = {7E31FE1C-7C5C-4D3F-A70C-697419AB3060}
+		{790EB36F-253E-4F08-AAAC-D04B0A240D86} = {7E31FE1C-7C5C-4D3F-A70C-697419AB3060}
+		{4E0A56BD-2214-437D-AFBE-712E86609C91} = {7E31FE1C-7C5C-4D3F-A70C-697419AB3060}
+		{C5321ADE-DE5F-483F-A351-0D5E35A2C635} = {8C4F22B6-A4F6-4EE3-AC13-64DC9C83B761}
+		{8A4F68B3-8D59-4D46-8B11-FA1A07B33CD6} = {8C4F22B6-A4F6-4EE3-AC13-64DC9C83B761}
+		{A2F4A164-49D9-4729-94E0-806ED364857D} = {8C4F22B6-A4F6-4EE3-AC13-64DC9C83B761}
+		{312C1AB6-DD90-4472-AD2F-DC9C30ED2C5F} = {8C4F22B6-A4F6-4EE3-AC13-64DC9C83B761}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA6E9FF9-2349-4F67-97A5-8E65B681D170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6E9FF9-2349-4F67-97A5-8E65B681D170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6E9FF9-2349-4F67-97A5-8E65B681D170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6E9FF9-2349-4F67-97A5-8E65B681D170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E3A1804-299C-4678-9B92-EA53B150B6C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E3A1804-299C-4678-9B92-EA53B150B6C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E3A1804-299C-4678-9B92-EA53B150B6C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E3A1804-299C-4678-9B92-EA53B150B6C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{790EB36F-253E-4F08-AAAC-D04B0A240D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{790EB36F-253E-4F08-AAAC-D04B0A240D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{790EB36F-253E-4F08-AAAC-D04B0A240D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{790EB36F-253E-4F08-AAAC-D04B0A240D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E0A56BD-2214-437D-AFBE-712E86609C91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E0A56BD-2214-437D-AFBE-712E86609C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E0A56BD-2214-437D-AFBE-712E86609C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E0A56BD-2214-437D-AFBE-712E86609C91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5321ADE-DE5F-483F-A351-0D5E35A2C635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5321ADE-DE5F-483F-A351-0D5E35A2C635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5321ADE-DE5F-483F-A351-0D5E35A2C635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5321ADE-DE5F-483F-A351-0D5E35A2C635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A4F68B3-8D59-4D46-8B11-FA1A07B33CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A4F68B3-8D59-4D46-8B11-FA1A07B33CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A4F68B3-8D59-4D46-8B11-FA1A07B33CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A4F68B3-8D59-4D46-8B11-FA1A07B33CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2F4A164-49D9-4729-94E0-806ED364857D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F4A164-49D9-4729-94E0-806ED364857D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F4A164-49D9-4729-94E0-806ED364857D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F4A164-49D9-4729-94E0-806ED364857D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{312C1AB6-DD90-4472-AD2F-DC9C30ED2C5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{312C1AB6-DD90-4472-AD2F-DC9C30ED2C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{312C1AB6-DD90-4472-AD2F-DC9C30ED2C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{312C1AB6-DD90-4472-AD2F-DC9C30ED2C5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
